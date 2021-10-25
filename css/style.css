@@ -1,0 +1,22 @@
+.app {
+    
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "conteudo"
+        "destaques";
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%
+                            5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-rows:  5% 5% 5% 5% 5% 5% 5% 5% 5% 5%
+                            5%;
+}
+
+ 
+.conteudo {
+   padding:0;
+   grid-area: conteudo;
+   grid-column:2/20 ;
+   grid-row: 2/11;
+   
+}
+
